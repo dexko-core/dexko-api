@@ -19,8 +19,11 @@ Create API
   <tr><td>https://api.dexko.co.kr/v2/public/systemStatus</td><td>Get the current status of system</td></tr>
   
   
-  <tr><td>https://api.dexko.co.kr/v2/private/walletInfo</td><td>Get the information of person's wallet</td></tr>
-  <tr><td>https://api.dexko.co.kr/v2/public/market/all</td><td>Get market information</td></tr>
+  <tr><td>https://api.dexko.co.kr/v2/private/walletInfo</td><td>Member wallets address lookup</td></tr>
+  <tr><td>https://api.dexko.co.kr/v2/private/orderHis</td><td>Members deal search</td></tr>
+  <tr><td>https://api.dexko.co.kr/v2/private/order</td><td>Buy/Sell Register</td></tr>
+  <tr><td>https://api.dexko.co.kr/v2/private/deleteOrder</td><td>Buy/Sell orders canceled</td></tr>
+  
 </table>
 
 <h3>Get Market List<h3>
