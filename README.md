@@ -219,3 +219,51 @@ API List
     }
   ]
   </pre>  
+  
+  
+  ####  6. WalletAddress
+  <p>Input Parameters</p>
+  <table>
+    <tr><th>Parameters</th><th>Date Type</th><th>Description</th></tr>
+    <tr><td>authorization</td><td>String</td><td>Header(accessKey,nonce)</td></tr>
+  </table>
+  <p>Return Parameters</p>
+  <table>
+    <tr><th>Parameters</th><th>Date Type</th><th>Description</th></tr>
+    <tr><td>Address</td><td>String</td><td>Wallet address</td></tr>
+    <tr><td>Balance</td><td>String</td><td>Total amount</td></tr>
+    <tr><td>Locked</td><td>String</td><td>The amount enclosed during the order</td></tr>
+    <tr><td>Currency</td><td>String</td><td>an abbreviation for money on English</td></tr>
+  </table>
+  <pre>
+  {
+    "result": [
+        {
+            "CURRENCY": "KRW",
+            "LOCKED": 51400,
+            "ADDRESS": "35260101125712",
+            "BALANCE": 229702.18600209
+        },
+        {
+            "CURRENCY": "BTC",
+            "LOCKED": 0,
+            "ADDRESS": "3BHREtGG5z8sboFiQy3hvg8Lpmkwfo5omU",
+            "BALANCE": 0.54346056
+        },
+        {
+            "CURRENCY": "ETH",
+            "LOCKED": 0,
+            "ADDRESS": "0x3a388281ea636487b0fd86ea77b531132ee2bbec",
+            "BALANCE": 10000941.43676287
+        },
+        {
+            "CURRENCY": "HDAC",
+            "LOCKED": 14,
+            "ADDRESS": "4anHfn73MdqfomwLvsTfq5Ws7U5q4CS9Vs",
+            "BALANCE": 100989.01
+        }
+
+    ]
+  }
+
+  </pre>
