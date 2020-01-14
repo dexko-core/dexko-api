@@ -21,6 +21,8 @@ API List
 
 -------------
 ####  1. Market
+> **Description:**
+ Provide market information
   <p>Input Parameters: No</p>
   <p>Return Parameters</p>
   <table>
@@ -46,6 +48,8 @@ API List
   </pre>
   
   ####  2. Ticker
+  > **Description:**
+ The current price of the exchange cryptocurrency at the time of processing request is provided
   <p>Input Parameters</p>
   <table>
     <tr><th>Parameters</th><th>Date Type</th><th>Description</th></tr>
@@ -85,6 +89,8 @@ API List
   </pre>
   
   ####  3. OrderBook
+ > **Description:**
+ Provides order information of exchange cryptocurrency at the time of processing request
   <p>Input Parameters</p>
   <table>
     <tr><th>Parameters</th><th>Date Type</th><th>Description</th></tr>
@@ -131,6 +137,8 @@ API List
   </pre>  
   
   ####  4. Transaction History
+ > **Description:**
+ Provides details of transaction completion
   <p>Input Parameters</p>
   <table>
     <tr><th>Parameters</th><th>Date Type</th><th>Description</th></tr>
@@ -180,6 +188,8 @@ API List
   </pre>  
   
   ####  5. SystemStatus
+ > **Description:**
+ Provides processing system information
   <p>Input Parameters: No</p>
   <p>Return Parameters</p>
   <table>
@@ -222,6 +232,8 @@ API List
   
   
   ####  6. WalletAddress
+ > **Description:**
+ Provides the transaction wallet member's coin wallet address, quantity and usage
   <p>Input Parameters</p>
   <table>
     <tr><th>Parameters</th><th>Date Type</th><th>Description</th></tr>
@@ -269,6 +281,8 @@ API List
   </pre>
 
   ####  7. OrderHis
+ > **Description:**
+ Processing history provides members buy / sell-registered or history information of the transaction
   <p>Input Parameters</p>
   <table>
     <tr><th>Parameters</th><th>Date Type</th><th>Description</th></tr>
@@ -340,6 +354,9 @@ API List
   </pre>
 
   ####  8. Order
+ > **Description:**
+ Processing history Buy / Sell register function
+
   <p>Input Parameters</p>
   <table>
     <tr><th>Parameters</th><th>Date Type</th><th>Description</th></tr>
@@ -378,6 +395,9 @@ API List
   </pre>
   
   ####  9. Cancel
+   > **Description:**
+ Processing history offers registered buy / sell order cancellation feature
+
   <p>Input Parameters</p>
   <table>
     <tr><th>Parameters</th><th>Date Type</th><th>Description</th></tr>
