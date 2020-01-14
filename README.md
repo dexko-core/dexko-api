@@ -84,18 +84,68 @@ API List
   }
   </pre>
   
-  
-  
-  
-  
-  
-  
-  
+  ####  3. OrderBook
+  <p>Input Parameters</p>
+  <table>
+    <tr><th>Parameters</th><th>Date Type</th><th>Description</th></tr>
+    <tr><td>market</td><td>String</td><td>Market Group</td></tr>
+  </table>
+  <p>Return Parameters</p>
+  <table>
+    <tr><th>Parameters</th><th>Date Type</th><th>Description</th></tr>
+    <tr><td>bid</td><td>Array[Object]</td><td>Purchase request history</td></tr>
+    <tr><td>quantity</td><td>Number(String)</td><td>Purchase Currency quantity</td></tr>
+    <tr><td>price</td><td>Number(String)</td><td>Purchase Currency price</td></tr>
+    <tr><td>ask</td><td>Array[Object]</td><td>Sell request history</td></tr>
+    <tr><td>quantity</td><td>Number(String)</td><td>Sell Currency quantity</td></tr>
+    <tr><td>price</td><td>Number(String)</td><td>Sell Currency price</td></tr>
+  </table>
+  <pre>
+  {
+    "result": {
+        "ask": [
+            {
+                " PRICE": 9710000,
+                " QUANTITY": 0.016
+            },
+            {
+                " PRICE": 9700000,
+                " QUANTITY ": 0.002
+            },
+            …….
+        ],
+        "bid": [
+            {
+                " PRICE": 4217000,
+                " QUANTITY ": 2.186
+            },
+            {
+                " PRICE": 4217000,
+                " QUANTITY ": 1.96
+            }
+            ……..
+    ]
+        },
+        "meta": {
+            "pagination": {
+                "total": 0,
+                "countPerPage": 0,
+                "totalPages": 0,
+                "link": {
+                    "next": "",
+                    "previous": ""
+                },
+                "page": 1
+            }
+        },
+        "header": {
+            "requestTime": "2019-06-21T10:56:42Z",
+            "sec": "10",
+            "code": "",
+            "responseTime": "2019-06-21T10:56:42Z",
+            "message": ""
+        }
+    }
 
-
-
-<h3 id="server_url">Rest Api Url</h3>
-S
-
-<h3 id="contact_us">Contact Us</h3>
-Message
+  </pre>  
+  
