@@ -338,3 +338,63 @@ API List
     ]
   }
   </pre>
+
+  ####  8. Order
+  <p>Input Parameters</p>
+  <table>
+    <tr><th>Parameters</th><th>Date Type</th><th>Description</th></tr>
+    <tr><td>authorization</td><td>String</td><td>Header(accessKey,nonce)</td></tr>
+    <tr><td>marketId</td><td>int</td><td>unique key (1)</td></tr>
+    <tr><td>amount</td><td>int</td><td>Order quantity</td></tr>
+    <tr><td>orderType</td><td>String</td><td>Order type</td></tr>
+    <tr><td>callType</td><td>Number</td><td>Order Type ( B: Buy , S: Sell)  </td></tr>
+    <tr><td>price</td><td>int</td><td>Order price</td></tr>
+  </table>
+  <p>Return Parameters</p>
+  <table>
+    <tr><th>Parameters</th><th>Date Type</th><th>Description</th></tr>
+    <tr><td>ORDER_ID</td><td>String</td><td>Unique ID of the order</td></tr>
+    <tr><td>SIDE</td><td>String</td><td>Order type ( B: Buy , S: Sell)</td></tr>
+    <tr><td>ORD_TYPE</td><td>String</td><td>Order method (N:limits price)</td></tr>
+    <tr><td>PRICE</td><td>String</td><td>The currency price at the time of order</td></tr>
+    <tr><td>STATE</td><td>String</td><td>Order Status ( GO: Order , CC: Cancel, CM: Closed)</td></tr>
+    <tr><td>MARKET</td><td>String</td><td>Market unique code</td></tr>
+    <tr><td>CURRENCY</td><td>String</td><td>an abbreviation for money on English</td></tr>
+  </table>
+  <pre>
+  {
+    "result": [
+        {
+            "ORDER_ID": 40860911,
+            "SIDE": "B",
+            "ORD_TYPE": "N",
+            "PRICE": 11210000,
+            "STATE": "CC",
+            "MARKET": "KRW",
+            "CURRENCY": "BTC"
+        }
+    ]
+  }
+  </pre>
+  
+  ####  9. Cancel
+  <p>Input Parameters</p>
+  <table>
+    <tr><th>Parameters</th><th>Date Type</th><th>Description</th></tr>
+    <tr><td>authorization</td><td>String</td><td>Header(accessKey,nonce)</td></tr>
+    <tr><td>orderId</td><td>int</td><td>Order no</td></tr>
+  </table>
+  <p>Return Parameters</p>
+  <table>
+    <tr><th>Parameters</th><th>Date Type</th><th>Description</th></tr>
+    <tr><td>status</td><td>String</td><td>true/false</td></tr>
+  </table>
+  <pre>
+  {
+    "result": [
+        {
+            "STATUS": "TRUE"
+        }
+    ]
+  }
+  </pre>
