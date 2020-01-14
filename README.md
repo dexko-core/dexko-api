@@ -267,3 +267,74 @@ API List
   }
 
   </pre>
+
+  ####  7. OrderHis
+  <p>Input Parameters</p>
+  <table>
+    <tr><th>Parameters</th><th>Date Type</th><th>Description</th></tr>
+    <tr><td>authorization</td><td>String</td><td>Header(accessKey,nonce)</td></tr>
+    <tr><td>orderId</td><td>String</td><td>Order number(if none)</td></tr>
+    <tr><td>market</td><td>String</td><td>unique key (KRW)</td></tr>
+    <tr><td>currency</td><td>String</td><td>an abbreviation for money on English</td></tr>
+    <tr><td>count</td><td>Number</td><td>Number of inquary (Default 100)</td></tr>
+  </table>
+  <p>Return Parameters</p>
+  <table>
+    <tr><th>Parameters</th><th>Date Type</th><th>Description</th></tr>
+    <tr><td>ORDER_ID</td><td>String</td><td>Unique ID of the order</td></tr>
+    <tr><td>SIDE</td><td>String</td><td>Order type ( B: Buy , S: Sell)</td></tr>
+    <tr><td>ORD_TYPE</td><td>String</td><td>Order method (N:limits price)</td></tr>
+    <tr><td>PRICE</td><td>String</td><td>The currency price at the time of order</td></tr>
+    <tr><td>STATE</td><td>String</td><td>Order Status ( GO: Order , CC: Cancel, CM: Closed)</td></tr>
+    <tr><td>MARKET</td><td>String</td><td>Market unique code</td></tr>
+    <tr><td>CURRENCY</td><td>String</td><td>an abbreviation for money on English</td></tr>
+    <tr><td>CREATED_AT</td><td>String</td><td>Order creation time</td></tr>
+    <tr><td>VOLUME</td><td>String</td><td>Order quantity entered by the user</td></tr>
+    <tr><td>REMAINING_VOLUME</td><td>String</td><td>Remaining order after order execution</td></tr>
+    <tr><td>EXECUTED_VOLUME</td><td>String</td><td>Executed volume</td></tr>
+  </table>
+  <pre>
+  {
+    "result": [
+        {
+            "CURRENCY": "BTC",
+            "SIDE": "B",
+            "EXECUTED_VOLUME": 0,
+            "MARKET": "KRW",
+            "ORDER_ID": 40860911,
+            "PRICE": 11210000,
+            "CREATED_AT": "2019-07-31 09:33:36",
+            "VOLUME": 0.0001,
+            "STATE": "CC",
+            "REMAINING_VOLUME": 0.0001,
+            "ORD_TYPE": "N"
+        },
+        {
+            "CURRENCY": "BTC",
+            "SIDE": "B",
+            "EXECUTED_VOLUME": 0.0001,
+            "MARKET": "KRW",
+            "ORDER_ID": 40860910,
+            "PRICE": 12000000,
+            "CREATED_AT": "2019-07-31 09:32:05",
+            "VOLUME": 0.0001,
+            "STATE": "CM",
+            "REMAINING_VOLUME": 0,
+            "ORD_TYPE": "N"
+        },
+        {
+            "CURRENCY": "BTC",
+            "SIDE": "B",
+            "EXECUTED_VOLUME": 0.0001,
+            "MARKET": "KRW",
+            "ORDER_ID": 40858873,
+            "PRICE": 22000000,
+            "CREATED_AT": "2019-07-17 14:44:59",
+            "VOLUME": 0.0001,
+            "STATE": "CM",
+            "REMAINING_VOLUME": 0,
+            "ORD_TYPE": "N"
+        }
+    ]
+  }
+  </pre>
