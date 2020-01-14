@@ -1,15 +1,10 @@
-# DEXKO API 
+DEXKO API
+===================
 
-<p>Getting Started Guide</p>
-<ul>
-<li><a href="#create_key">Create API Key</a></li>
-<li><a href="#server_url">REST API URL</a></li>
-<li><a href="#contact_us">Contact Us</a></li>
-</ul>
-<h3 id="create_key">Create API Key</h3>
-Create API
 
-<h3>API List</h3>
+
+API List
+-------------
 <table>
   <tr><th>URL</th><th>Description</th></tr>
   <tr><td>https://api.dexko.co.kr/v2/public/market/all</td><td>Market</td></tr>
@@ -17,13 +12,10 @@ Create API
   <tr><td>https://api.dexko.co.kr/v2/public/orderbook</td><td>OrderBook</td></tr>
   <tr><td>https://api.dexko.co.kr/v2/public/transaction_history</td><td>Transaction History</td></tr>
   <tr><td>https://api.dexko.co.kr/v2/public/systemStatus</td><td>SystemStatus</td></tr>
-  
-  
   <tr><td>https://api.dexko.co.kr/v2/private/walletInfo</td><td>WalletAddress</td></tr>
   <tr><td>https://api.dexko.co.kr/v2/private/orderHis</td><td>OrderHis</td></tr>
   <tr><td>https://api.dexko.co.kr/v2/private/order</td><td>Order</td></tr>
   <tr><td>https://api.dexko.co.kr/v2/private/deleteOrder</td><td>Cancel</td></tr>
-  
 </table>
 
 <h3>Get Market List<h3>
