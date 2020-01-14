@@ -28,78 +28,25 @@ Create API
   <p>Return Parameters</p>
   <table>
     <tr><th>Parameters</th><th>Date Type</th><th>Description</th></tr>
-    <tr><td></td><td></td><td></td></tr>
+    <tr><td>market</td><td>String</td><td>Market Information</td></tr>
+    <tr><td>korean_name</td><td>String</td><td></td></tr>
+    <tr><td>english_name</td><td>String</td><td></td></tr>
+    <tr><td>market_Id</td><td>String</td><td>Market ID</td></tr>
   </table>
-  
-  <table class=MsoTableGrid border=1 cellspacing=0 cellpadding=0
- style='border-collapse:collapse;border:none;mso-border-alt:solid windowtext .5pt;
- mso-yfti-tbllook:1184;mso-padding-alt:0cm 5.4pt 0cm 5.4pt'>
- <tr style='mso-yfti-irow:0;mso-yfti-firstrow:yes;mso-yfti-lastrow:yes'>
-  <td width=1008 valign=top style='width:756.3pt;border:solid windowtext 1.0pt;
-  mso-border-alt:solid windowtext .5pt;padding:0cm 5.4pt 0cm 5.4pt'><pre
-  style='vertical-align:baseline'><span class=bggray><span lang=EN-US
-  style='font-size:9.0pt;color:#777777'>[<o:p></o:p></span></span></pre><pre
-  style='vertical-align:baseline'><span class=bggray><span lang=EN-US
-  style='font-size:9.0pt;color:#777777'><span style='mso-spacerun:yes'>&nbsp;&nbsp;&nbsp; </span>{<o:p></o:p></span></span></pre><pre
-  style='vertical-align:baseline'><span class=bggray><span lang=EN-US
-  style='font-size:9.0pt;color:#777777'><span style='mso-spacerun:yes'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>&quot;MARKET&quot;: &quot;KRW-ETH&quot;,<o:p></o:p></span></span></pre><pre
-  style='vertical-align:baseline'><span class=bggray><span lang=EN-US
-  style='font-size:9.0pt;color:#777777'><span style='mso-spacerun:yes'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>&quot;KOREAN_NAME&quot;: &quot;</span></span><span
-  class=bggray><span style='font-size:9.0pt;'>이더리움</span></span><span
-  class=bggray><span lang=EN-US style='font-size:9.0pt;
-  color:#777777'>&quot;,<o:p></o:p></span></span></pre><pre style='vertical-align:
-  baseline'><span class=bggray><span lang=EN-US style='font-size:9.0pt;
-  color:#777777'><span style='mso-spacerun:yes'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>&quot;ENGLISH_NAME&quot;: &quot;ETH&quot;,<o:p></o:p></span></span></pre><pre
-  style='text-indent:36.0pt;mso-char-indent-count:4.0;vertical-align:baseline'><span
-  class=bggray><span lang=EN-US style='font-size:9.0pt;
-  color:#777777'>&quot;MARKET_ID&quot;: &quot;2&quot;<o:p></o:p></span></span></pre><pre
-  style='vertical-align:baseline'><span class=bggray><span lang=EN-US
-  style='font-size:9.0pt;color:#777777'><span style='mso-spacerun:yes'>&nbsp;&nbsp;&nbsp; </span>},<o:p></o:p></span></span></pre><pre
-  style='vertical-align:baseline'><span class=bggray><span lang=EN-US
-  style='font-size:9.0pt;color:#777777'><span style='mso-spacerun:yes'>&nbsp;&nbsp;&nbsp; </span>{<o:p></o:p></span></span></pre><pre
-  style='vertical-align:baseline'><span class=bggray><span lang=EN-US
-  style='font-size:9.0pt;color:#777777'><span style='mso-spacerun:yes'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>&quot;MARKET&quot;: &quot;KRW-HDAC&quot;,<o:p></o:p></span></span></pre><pre
-  style='vertical-align:baseline'><span class=bggray><span lang=EN-US
-  style='font-size:9.0pt;color:#777777'><span style='mso-spacerun:yes'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>&quot;KOREAN_NAME&quot;: &quot;</span></span><span
-  class=bggray><span style='font-size:9.0pt;'>에이치닥</span></span><span
-  class=bggray><span lang=EN-US style='font-size:9.0pt;'>&quot;,<o:p></o:p></span></span></pre><pre style='vertical-align:
-  baseline'><span class=bggray><span lang=EN-US style='font-size:9.0pt;
- color:#777777'><span style='mso-spacerun:yes'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>&quot;ENGLISH_NAME&quot;: &quot;HDAC&quot;,<o:p></o:p></span></span></pre><pre
-  style='text-indent:36.0pt;mso-char-indent-count:4.0;vertical-align:baseline'><span
-  class=bggray><span lang=EN-US style='font-size:9.0pt;color:#777777'>&quot;MARKET_ID&quot;: &quot;3&quot;<o:p></o:p></span></span></pre><pre
-  style='vertical-align:baseline'><span class=bggray><span lang=EN-US
-  style='font-size:9.0pt;color:#777777'><span style='mso-spacerun:yes'>&nbsp;&nbsp;&nbsp; </span>},<o:p></o:p></span></span></pre><pre
-  style='vertical-align:baseline'><span class=bggray><span lang=EN-US
-  style='font-size:9.0pt;color:#777777'><span style='mso-spacerun:yes'>&nbsp;&nbsp;&nbsp; </span>{<o:p></o:p></span></span></pre><pre
-  style='vertical-align:baseline'><span class=bggray><span lang=EN-US
-  style='font-size:9.0pt;color:#777777'><span style='mso-spacerun:yes'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>&quot;MARKET&quot;: &quot;KRW-QTUM&quot;,<o:p></o:p></span></span></pre><pre
-  style='vertical-align:baseline'><span class=bggray><span lang=EN-US
-  style='font-size:9.0pt;color:#777777'><span style='mso-spacerun:yes'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>&quot;KOREAN_NAME&quot;: &quot;</span></span><span
-  class=bggray><span style='font-size:9.0pt;color:#777777'>퀀텀</span></span><span
-  class=bggray><span lang=EN-US style='font-size:9.0pt;color:#777777'>&quot;,<o:p></o:p></span></span></pre><pre style='vertical-align:
-  baseline'><span class=bggray><span lang=EN-US style='font-size:9.0pt; color:#777777'><span style='mso-spacerun:yes'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>&quot;ENGLISH_NAME&quot;: &quot;QTUM&quot;,<o:p></o:p></span></span></pre><pre
-  style='text-indent:36.0pt;mso-char-indent-count:4.0;vertical-align:baseline'><span
-  class=bggray><span lang=EN-US style='font-size:9.0pt; color:#777777'>&quot;MARKET_ID&quot;: &quot;4&quot;<o:p></o:p></span></span></pre><pre
-  style='vertical-align:baseline'><span class=bggray><span lang=EN-US
-  style='font-size:9.0pt;color:#777777'><span style='mso-spacerun:yes'>&nbsp;&nbsp;&nbsp; </span>},<o:p></o:p></span></span></pre><pre
-  style='vertical-align:baseline'><span class=bggray><span lang=EN-US
-  style='font-size:9.0pt;color:#777777'><span style='mso-spacerun:yes'>&nbsp;&nbsp;&nbsp; </span>{<o:p></o:p></span></span></pre><pre
-  style='vertical-align:baseline'><span class=bggray><span lang=EN-US
-  style='font-size:9.0pt;color:#777777'><span style='mso-spacerun:yes'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>&quot;MARKET&quot;: &quot;KRW-BTC&quot;,<o:p></o:p></span></span></pre><pre
-  style='vertical-align:baseline'><span class=bggray><span lang=EN-US
-  style='font-size:9.0pt;color:#777777'><span style='mso-spacerun:yes'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>&quot;KOREAN_NAME&quot;: &quot;</span></span><span
-  class=bggray><span style='font-size:9.0pt;color:#777777'>비트코인</span></span><span
-  class=bggray><span lang=EN-US style='font-size:9.0pt; color:#777777'>&quot;,<o:p></o:p></span></span></pre><pre style='vertical-align:
-  baseline'><span class=bggray><span lang=EN-US style='font-size:9.0pt;color:#777777'><span style='mso-spacerun:yes'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>&quot;ENGLISH_NAME&quot;: &quot;BTC&quot;,<o:p></o:p></span></span></pre><pre
-  style='text-indent:36.0pt;mso-char-indent-count:4.0;vertical-align:baseline'><span
-  class=bggray><span lang=EN-US style='font-size:9.0pt;color:#777777'>&quot;MARKET_ID&quot;: &quot;1&quot;<o:p></o:p></span></span></pre><pre
-  style='vertical-align:baseline'><span class=bggray><span lang=EN-US
-  style='font-size:9.0pt;color:#777777'><span style='mso-spacerun:yes'>&nbsp;&nbsp;&nbsp; </span>}<o:p></o:p></span></span></pre><pre
-  style='vertical-align:baseline;word-break:break-hangul'><span class=bggray><span
-  lang=EN-US style='font-size:9.0pt;color:#777777'>]<o:p></o:p></span></span></pre></td>
- </tr>
-</table>
-  
+  <pre>
+  [
+  {
+    "MARKET":"BTC-ETH",
+    "KOREAN_NAME":"이더리움",
+    "ENGLISH_NAME":"ETH"
+  },
+  {
+    "MARKET":"ETH-BTC",
+    "KOREAN_NAME":"비트코인",
+    "ENGLISH_NAME":"BTC"
+  }
+  ] 
+  </pre>
   
   
   
