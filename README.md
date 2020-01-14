@@ -12,17 +12,17 @@ Create API
 <h3>API List</h3>
 <table>
   <tr><th>URL</th><th>Description</th></tr>
-  <tr><td>https://api.dexko.co.kr/v2/public/market/all</td><td>Get market information</td></tr>
-  <tr><td>https://api.dexko.co.kr/v2/public/ticker</td><td>Current a tick</td></tr>
-  <tr><td>https://api.dexko.co.kr/v2/public/orderbook</td><td>Get Orderbook</td></tr>
-  <tr><td>https://api.dexko.co.kr/v2/public/transaction_history</td><td>Get history of transactions</td></tr>
-  <tr><td>https://api.dexko.co.kr/v2/public/systemStatus</td><td>Get the current status of system</td></tr>
+  <tr><td>https://api.dexko.co.kr/v2/public/market/all</td><td>Market</td></tr>
+  <tr><td>https://api.dexko.co.kr/v2/public/ticker</td><td>Ticker</td></tr>
+  <tr><td>https://api.dexko.co.kr/v2/public/orderbook</td><td>OrderBook</td></tr>
+  <tr><td>https://api.dexko.co.kr/v2/public/transaction_history</td><td>Transaction History</td></tr>
+  <tr><td>https://api.dexko.co.kr/v2/public/systemStatus</td><td>SystemStatus</td></tr>
   
   
-  <tr><td>https://api.dexko.co.kr/v2/private/walletInfo</td><td>Member wallets address lookup</td></tr>
-  <tr><td>https://api.dexko.co.kr/v2/private/orderHis</td><td>Members deal search</td></tr>
-  <tr><td>https://api.dexko.co.kr/v2/private/order</td><td>Buy/Sell Register</td></tr>
-  <tr><td>https://api.dexko.co.kr/v2/private/deleteOrder</td><td>Buy/Sell orders canceled</td></tr>
+  <tr><td>https://api.dexko.co.kr/v2/private/walletInfo</td><td>WalletAddress</td></tr>
+  <tr><td>https://api.dexko.co.kr/v2/private/orderHis</td><td>OrderHis</td></tr>
+  <tr><td>https://api.dexko.co.kr/v2/private/order</td><td>Order</td></tr>
+  <tr><td>https://api.dexko.co.kr/v2/private/deleteOrder</td><td>Cancel</td></tr>
   
 </table>
 
