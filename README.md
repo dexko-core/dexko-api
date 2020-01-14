@@ -124,28 +124,58 @@ API List
                 " QUANTITY ": 1.96
             }
             ……..
-    ]
-        },
-        "meta": {
-            "pagination": {
-                "total": 0,
-                "countPerPage": 0,
-                "totalPages": 0,
-                "link": {
-                    "next": "",
-                    "previous": ""
-                },
-                "page": 1
-            }
-        },
-        "header": {
-            "requestTime": "2019-06-21T10:56:42Z",
-            "sec": "10",
-            "code": "",
-            "responseTime": "2019-06-21T10:56:42Z",
-            "message": ""
-        }
+        ]
     }
+  }
+
+  </pre>  
+  
+  ####  4. Transaction History
+  <p>Input Parameters</p>
+  <table>
+    <tr><th>Parameters</th><th>Date Type</th><th>Description</th></tr>
+    <tr><td>market</td><td>String</td><td>Market Group</td></tr>
+  </table>
+  <p>Return Parameters</p>
+  <table>
+    <tr><th>Parameters</th><th>Date Type</th><th>Description</th></tr>
+    <tr><td>total</td><td>Number(String)</td><td>Total transaction amount</td></tr>
+    <tr><td>transaction_date</td><td>String</td><td>Execution time</td></tr>
+    <tr><td>price</td><td>Number(String)</td><td>Execution Price</td></tr>
+    <tr><td>units_traded</td><td>Number(String)</td><td>Volume</td></tr>
+    <tr><td>type</td><td>String</td><td>Transaction type(bid:purshase, ask:sell)</td></tr>
+  </table>
+  <pre>
+  [
+    {
+        "TOTAL": 31878,
+        "TRANSACTION_DATE": "2020-01-08 11:21:23",
+        "PRICE": 9660000,
+        "UNITS_TRADED": 0.0033,
+        "TYPE": "BID"
+    },
+    {
+        "TOTAL": 0.00001815,
+        "TRANSACTION_DATE": "2020-01-08 11:21:23",
+        "PRICE": 0.0033,
+        "UNITS_TRADED": 0.0055,
+        "TYPE": "ASK"
+    },
+    {
+        "TOTAL": 11592,
+        "TRANSACTION_DATE": "2020-01-08 11:21:15",
+        "PRICE": 9660000,
+        "UNITS_TRADED": 0.0012,
+        "TYPE": "BID"
+    },
+    {
+        "TOTAL": 0.0000066,
+        "TRANSACTION_DATE": "2020-01-08 11:21:15",
+        "PRICE": 0.0012,
+        "UNITS_TRADED": 0.0055,
+        "TYPE": "ASK"
+    }
+  ]
 
   </pre>  
   
