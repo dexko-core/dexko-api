@@ -179,3 +179,43 @@ API List
 
   </pre>  
   
+  ####  5. SystemStatus
+  <p>Input Parameters: No</p>
+  <p>Return Parameters</p>
+  <table>
+    <tr><th>Parameters</th><th>Date Type</th><th>Description</th></tr>
+    <tr><td>coin</td><td>String</td><td>Crytocurrency name</td></tr>
+    <tr><td>assetType</td><td>String</td><td>Activation</td></tr>
+    <tr><td>deposit</td><td>String</td><td>Market Status</td></tr>
+    <tr><td>withdrawals</td><td>String</td><td>Withdrawals Status</td></tr>
+    <tr><td>trading</td><td>String</td><td>Whether to trade</td></tr>
+  <tr><td>url</td><td>String</td><td>Tracking address</td></tr>
+  </table>
+  <pre>
+  [
+    {
+        "DEPOSITS": "Active",
+        "ASSETTYPE": "Coin",
+        "WITHDRAWALS": "Active",
+        "TRADING": "Active",
+        "COIN": "BTC",
+        "URL": "https://btc.com/@transaction-id"
+    },
+    {
+        "DEPOSITS": "Active",
+        "ASSETTYPE": "Coin",
+        "WITHDRAWALS": "Active",
+        "TRADING": "Active",
+        "COIN": "ETH",
+        "URL": "https://etherscan.io/tx/@transaction-id"
+    },
+    {
+        "DEPOSITS": "Active",
+        "ASSETTYPE": "Coin",
+        "WITHDRAWALS": "Active",
+        "TRADING": "Active",
+        "COIN": "BCH",
+        "URL": "http://blockdozer.com/insight/tx/@transaction-id"
+    }
+  ]
+  </pre>  
