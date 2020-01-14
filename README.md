@@ -21,7 +21,7 @@ Create API
   
   <tr><td>https://api.dexko.co.kr/v2/private/walletInfo</td><td>Get the information of person's wallet</td></tr>
   <tr><td>https://api.dexko.co.kr/v2/public/market/all</td><td>Get market information</td></tr>
-
+</table>
 
 <h3 id="server_url">Rest Api Url</h3>
 S
