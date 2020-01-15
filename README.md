@@ -5,17 +5,17 @@ DEXKO OPEN API
 
 API List
 -------------
-<table>
-  <tr><th>URL</th><th>Description</th></tr>
-  <tr><td><a href="#marketall">public/market/all</a></td><td>Market</td></tr>
-  <tr><td><a href="#ticker">public/ticker</a></td><td>Ticker</td></tr>
-  <tr><td><a href="#orderbook">public/orderbook</a></td><td>OrderBook</td></tr>
-  <tr><td><a href="#transhistory">public/transaction_history</a></td><td>Transaction History</td></tr>
-  <tr><td><a href="#sysstatus">public/systemStatus</a></td><td>SystemStatus</td></tr>
-  <tr><td><a href="#waddress">private/walletInfo</a></td><td>WalletAddress</td></tr>
-  <tr><td><a href="#orderhis">private/orderHis</a></td><td>OrderHis</td></tr>
-  <tr><td><a href="#order">private/order</a></td><td>Order</td></tr>
-  <tr><td><a href="#cancel">private/deleteOrder</a></td><td>Cancel</td></tr>
+<table style="width:90%">
+  <tr><th>URL</th><th>Type</th><th>Description</th></tr>
+  <tr><td><a href="#marketall">public/market/all</a></td><td>Public</td><td>Market</td></tr>
+  <tr><td><a href="#ticker">public/ticker</a></td><td>Public</td><td>Ticker</td></tr>
+  <tr><td><a href="#orderbook">public/orderbook</a></td><td>Public</td><td>OrderBook</td></tr>
+  <tr><td><a href="#transhistory">public/transaction_history</a></td><td>Public</td><td>Transaction History</td></tr>
+  <tr><td><a href="#sysstatus">public/systemStatus</a></td><td>Public</td><td>SystemStatus</td></tr>
+  <tr><td><a href="#waddress">private/walletInfo</a></td><td>Private</td><td>WalletAddress</td></tr>
+  <tr><td><a href="#orderhis">private/orderHis</a></td><td>Private</td><td>OrderHis</td></tr>
+  <tr><td><a href="#order">private/order</a></td>td>Private</td><td>Order</td></tr>
+  <tr><td><a href="#cancel">private/deleteOrder</a></td><td>Private</td><td>Cancel</td></tr>
 </table>
 
 
@@ -48,7 +48,7 @@ API List
   ] 
   </pre>
   
-  ####  2. Ticker
+  ####  <p id="ticker" name="marketall">2. Ticker</p>
   > **Description:**
    The current price of the exchange cryptocurrency at the time of processing request is provided
   > - url : https://api.dexko.co.kr/v2/public/ticker?market=KRW-BTC
@@ -90,7 +90,7 @@ API List
   }
   </pre>
   
-  ####  3. OrderBook
+  ####  <p id="orderbook" name="orderbook">3. OrderBook</p>
   > **Description:**
   Provides order information of exchange cryptocurrency at the time of processing request
   > - url : https://api.dexko.co.kr/v2/public/orderbook?market=KRW-BTC
@@ -139,7 +139,7 @@ API List
 
   </pre>  
   
-  ####  4. Transaction History
+  ####  4. <p id="transhistory" name="transhistory">Transaction History</p>
   > **Description:**
   Provides details of transaction completion
   > - url : https://api.dexko.co.kr/v2/public/transaction_history?market=KRW-BTC
@@ -191,7 +191,7 @@ API List
 
   </pre>  
   
-  ####  5. SystemStatus
+  ####  5. <p id="sysstatus" name="sysstatus">SystemStatus</p>
   > **Description:**
   Provides processing system information
   > - url : https://api.dexko.co.kr/v2/public/systemStatus
@@ -236,7 +236,7 @@ API List
   </pre>  
   
   
-  ####  6. WalletAddress
+  ####  <p id="waddress" name="waddress">6. WalletAddress</p>
   > **Description:**
   Provides the transaction wallet member's coin wallet address, quantity and usage
   > - url : https://api.dexko.co.kr/v2/private/walletInfo
@@ -286,7 +286,7 @@ API List
 
   </pre>
 
-  ####  7. OrderHis
+  ####  <p id="orderhis" name="orderhis">7. OrderHis</p>
   > **Description:**
   Processing history provides members buy / sell-registered or history information of the transaction
   > - url : https://api.dexko.co.kr/v2/private/orderHis
@@ -360,7 +360,7 @@ API List
   }
   </pre>
 
-  ####  8. Order
+  ####  <p id="order" name="order">8. Order</p>
   > **Description:**
   Processing history Buy / Sell register function
   > - url : https://api.dexko.co.kr/v2/private/order
@@ -401,7 +401,7 @@ API List
   }
   </pre>
   
-  ####  9. Cancel
+  ####  <p id="cancel" name="cancel">9. Cancel</p>
   > **Description:**
   Processing history offers registered buy / sell order cancellation feature
   > - url : https://api.dexko.co.kr/v2/private/deleteOrder
