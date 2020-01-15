@@ -1,8 +1,11 @@
 DEXKO OPEN API
 ===================
-Thank you for visiting Dexko's Development Page. Dexko is currently providing REST API to our users and public. 
+Thank you for visiting Dexko's Development Page. Dexko is currently providing "REST API" to our users and public. Restful API has two types; 1. Public 2. Private
 
-Contact: If you have any question/concern/suggestion for our development page or trading site, please leave a message in <a href="https://github.com/dexko-core/dexko-api/issues">Issue section</a>.
+1. Public   : Anyone can access.      - functions: orderbook/transaction history/ticker/market/system satus. 
+2. Private  : Only for Dexko's users. - functions: order call/cancel/order history/balance. 
+
+Contact: If you have any question/concern/suggestion for our development page or <a href="https://dexko.co.kr">trading site</a>, please leave a message in <a href="https://github.com/dexko-core/dexko-api/issues">Issue section</a>.
 
 API List
 -------------
