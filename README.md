@@ -144,7 +144,7 @@ API List
 
   </pre>  
   
-  ####  4. <p id="transhistory" name="transhistory">Transaction History</p>
+  ####  <p id="transhistory" name="transhistory">4. Transaction History</p>
   > **Description:**
   Provides details of transaction completion
   > - url : https://api.dexko.co.kr/v2/public/transaction_history?market=KRW-BTC
@@ -196,7 +196,7 @@ API List
 
   </pre>  
   
-  ####  5. <p id="sysstatus" name="sysstatus">System Status</p>
+  ####  <p id="sysstatus" name="sysstatus">5. System Status</p>
   > **Description:**
   Provides processing system information
   > - url : https://api.dexko.co.kr/v2/public/systemStatus
