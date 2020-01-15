@@ -1,7 +1,8 @@
 DEXKO OPEN API
 ===================
+Thank you for visiting Dexko's Development Page. Dexko is currently providing REST API to our users and public. 
 
-
+Contact: If you have any question/concern/suggestion for our development page or trading site, please leave a message in <a href="https://github.com/dexko-core/dexko-api/issues">Issue section</a>.
 
 API List
 -------------
@@ -21,7 +22,7 @@ API List
 
 
 -------------
-####  <p id="marketall" name="marketall">1. Market</p>
+####  <p id="marketall" name="marketall">1. Market Information</p>
 > **Description:**
  Provide market information
 > - url : https://api.dexko.co.kr/v2/public/market/all
@@ -192,7 +193,7 @@ API List
 
   </pre>  
   
-  ####  5. <p id="sysstatus" name="sysstatus">SystemStatus</p>
+  ####  5. <p id="sysstatus" name="sysstatus">System Status</p>
   > **Description:**
   Provides processing system information
   > - url : https://api.dexko.co.kr/v2/public/systemStatus
@@ -237,7 +238,7 @@ API List
   </pre>  
   
   
-  ####  <p id="waddress" name="waddress">6. WalletAddress</p>
+  ####  <p id="waddress" name="waddress">6. Wallet Account Balance</p>
   > **Description:**
   Provides the transaction wallet member's coin wallet address, quantity and usage
   > - url : https://api.dexko.co.kr/v2/private/walletInfo
@@ -287,7 +288,7 @@ API List
 
   </pre>
 
-  ####  <p id="orderhis" name="orderhis">7. OrderHis</p>
+  ####  <p id="orderhis" name="orderhis">7. Order History</p>
   > **Description:**
   Processing history provides members buy / sell-registered or history information of the transaction
   > - url : https://api.dexko.co.kr/v2/private/orderHis
