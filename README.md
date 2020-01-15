@@ -6,16 +6,17 @@ DEXKO OPEN API
 API List
 -------------
 <table style="width:90%">
-  <tr><th>URL</th><th>Type</th><th>Description</th></tr>
-  <tr><td><a href="#marketall">public/market/all</a></td><td>Public</td><td>Market</td></tr>
-  <tr><td><a href="#ticker">public/ticker</a></td><td>Public</td><td>Ticker</td></tr>
-  <tr><td><a href="#orderbook">public/orderbook</a></td><td>Public</td><td>OrderBook</td></tr>
-  <tr><td><a href="#transhistory">public/transaction_history</a></td><td>Public</td><td>Transaction History</td></tr>
-  <tr><td><a href="#sysstatus">public/systemStatus</a></td><td>Public</td><td>SystemStatus</td></tr>
-  <tr><td><a href="#waddress">private/walletInfo</a></td><td>Private</td><td>WalletAddress</td></tr>
-  <tr><td><a href="#orderhis">private/orderHis</a></td><td>Private</td><td>OrderHis</td></tr>
-  <tr><td><a href="#order">private/order</a></td><td>Private</td><td>Order</td></tr>
-  <tr><td><a href="#cancel">private/deleteOrder</a></td><td>Private</td><td>Cancel</td></tr>
+  <thead><tr><th>URL</th><th>Type</th><th>Description</th></tr></thead>
+  <tbody><tr><td><a href="#marketall">public/market/all</a></td><td>Public</td><td>Get Market Information</td></tr>
+  <tr><td><a href="#ticker">public/ticker</a></td><td>Public</td><td>Get Ticker</td></tr>
+  <tr><td><a href="#orderbook">public/orderbook</a></td><td>Public</td><td>Get OrderBook</td></tr>
+  <tr><td><a href="#transhistory">public/transaction_history</a></td><td>Public</td><td>Get Transaction History</td></tr>
+  <tr><td><a href="#sysstatus">public/systemStatus</a></td><td>Public</td><td>Get System Status</td></tr>
+  <tr><td><a href="#waddress">private/walletInfo</a></td><td>Private</td><td>Get Account Balances</td></tr>
+  <tr><td><a href="#orderhis">private/orderHis</a></td><td>Private</td><td>Get Order History</td></tr>
+  <tr><td><a href="#order">private/order</a></td><td>Private</td><td>Create Order</td></tr>
+  <tr><td><a href="#cancel">private/deleteOrder</a></td><td>Private</td><td>Cancel Orders</td></tr>
+  </tbody>
 </table>
 
 
