@@ -7,22 +7,22 @@ API List
 -------------
 <table>
   <tr><th>URL</th><th>Description</th></tr>
-  <tr><td>https://api.dexko.co.kr/v2/public/market/all</td><td>Market</td></tr>
-  <tr><td>https://api.dexko.co.kr/v2/public/ticker</td><td>Ticker</td></tr>
-  <tr><td>https://api.dexko.co.kr/v2/public/orderbook</td><td>OrderBook</td></tr>
-  <tr><td>https://api.dexko.co.kr/v2/public/transaction_history</td><td>Transaction History</td></tr>
-  <tr><td>https://api.dexko.co.kr/v2/public/systemStatus</td><td>SystemStatus</td></tr>
-  <tr><td>https://api.dexko.co.kr/v2/private/walletInfo</td><td>WalletAddress</td></tr>
-  <tr><td>https://api.dexko.co.kr/v2/private/orderHis</td><td>OrderHis</td></tr>
-  <tr><td>https://api.dexko.co.kr/v2/private/order</td><td>Order</td></tr>
-  <tr><td>https://api.dexko.co.kr/v2/private/deleteOrder</td><td>Cancel</td></tr>
+  <tr><td><a href="#marketall">public/market/all</a></td><td>Market</td></tr>
+  <tr><td><a href="#ticker">public/ticker</a></td><td>Ticker</td></tr>
+  <tr><td><a href="#orderbook">public/orderbook</a></td><td>OrderBook</td></tr>
+  <tr><td><a href="#transhistory">public/transaction_history</a></td><td>Transaction History</td></tr>
+  <tr><td><a href="#sysstatus">public/systemStatus</a></td><td>SystemStatus</td></tr>
+  <tr><td><a href="#waddress">private/walletInfo</a></td><td>WalletAddress</td></tr>
+  <tr><td><a href="#orderhis">private/orderHis</a></td><td>OrderHis</td></tr>
+  <tr><td><a href="#order">private/order</a></td><td>Order</td></tr>
+  <tr><td><a href="#cancel">private/deleteOrder</a></td><td>Cancel</td></tr>
 </table>
 
 
 -------------
 ####  1. Market
 > **Description:**
- Provide market information
+ <p id="marketall" name="marketall">Provide market information</p>
 > - url : https://api.dexko.co.kr/v2/public/market/all
   <p>Input Parameters: No</p>
   <p>Return Parameters</p>
@@ -214,7 +214,7 @@ API List
         "WITHDRAWALS": "Active",
         "TRADING": "Active",
         "COIN": "BTC",
-        "URL": "https://btc.com/@transaction-id"
+        "URL": ""
     },
     {
         "DEPOSITS": "Active",
@@ -222,7 +222,7 @@ API List
         "WITHDRAWALS": "Active",
         "TRADING": "Active",
         "COIN": "ETH",
-        "URL": "https://etherscan.io/tx/@transaction-id"
+        "URL": ""
     },
     {
         "DEPOSITS": "Active",
@@ -230,7 +230,7 @@ API List
         "WITHDRAWALS": "Active",
         "TRADING": "Active",
         "COIN": "BCH",
-        "URL": "http://blockdozer.com/insight/tx/@transaction-id"
+        "URL": ""
     }
   ]
   </pre>  
@@ -265,19 +265,19 @@ API List
         {
             "CURRENCY": "BTC",
             "LOCKED": 0,
-            "ADDRESS": "3BHREtGG5z8sboFiQy3hvg8Lpmkwfo5omU",
+            "ADDRESS": "3BXXXXXXXXXXX",
             "BALANCE": 0.54346056
         },
         {
             "CURRENCY": "ETH",
             "LOCKED": 0,
-            "ADDRESS": "0x3a388281ea636487b0fd86ea77b531132ee2bbec",
+            "ADDRESS": "0x3aXXXXXXXXXX",
             "BALANCE": 10000941.43676287
         },
         {
             "CURRENCY": "HDAC",
             "LOCKED": 14,
-            "ADDRESS": "4anHfn73MdqfomwLvsTfq5Ws7U5q4CS9Vs",
+            "ADDRESS": "4aXXXXXXXXXXXXX",
             "BALANCE": 100989.01
         }
 
