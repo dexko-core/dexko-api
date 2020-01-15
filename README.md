@@ -14,7 +14,7 @@ API List
   <tr><td><a href="#sysstatus">public/systemStatus</a></td><td>Public</td><td>SystemStatus</td></tr>
   <tr><td><a href="#waddress">private/walletInfo</a></td><td>Private</td><td>WalletAddress</td></tr>
   <tr><td><a href="#orderhis">private/orderHis</a></td><td>Private</td><td>OrderHis</td></tr>
-  <tr><td><a href="#order">private/order</a></td>td>Private</td><td>Order</td></tr>
+  <tr><td><a href="#order">private/order</a></td><td>Private</td><td>Order</td></tr>
   <tr><td><a href="#cancel">private/deleteOrder</a></td><td>Private</td><td>Cancel</td></tr>
 </table>
 
